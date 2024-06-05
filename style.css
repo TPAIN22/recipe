@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    color: var(--Wenge-Brown);
+    background: hsl(30, 54%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.containor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    background-color: white;
+    gap: 2.5rem;  
+    max-width: 736px;
+}
+.containor2{
+    display: grid;
+    gap:2rem;
+}
+span{
+    font-weight: 700;
+}
+p{
+    font-weight:700;
+    font-size: 32px;
+    color: #854632;
+}
+.time{
+    display: grid;
+    gap: 16px;
+    padding: 28px;
+    background: var(--Rose-White);
+    border-radius: 12px;
+}
+.time p {
+    font-size: 20px;
+}
+li{
+    margin-left: 16px;
+    padding-left: 16px;
+    padding-bottom:8px;
+}
+h1{
+    color:var(--Dark-Charcoal   );
+    font-weight: 700;
+    font-size: 40px;
+}
+.gap{
+    display: grid;    
+    gap: 24px;
+}
+.gap li{
+    padding-left:12px;
+}
+.gap h2{
+    font-size: 16px;
+    color: var(--Wenge-Brown);
+    font-weight: 400;
+}
+td{
+    padding: 16px;
+    border-bottom: 1px solid var(--Wenge-Brown);
+    
+}
+.big{
+    font-weight: 600;
+}
+.flex{
+    display: grid;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.big{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 18px;
+}
+.dog{
+    border:none;
+}
+@media only screen and (max-width:400px) {
+    .containor {
+        padding-top:0;
+    }
+}
