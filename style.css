@@ -39,6 +39,7 @@ img{
     gap: 2.5rem;  
     max-width: 736px;
     margin-top: 123px;
+    border-radius: 20px;
 }
 .containor2{
     display: grid;
