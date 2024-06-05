@@ -20,6 +20,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Outfit", sans-serif;
+
 }
 
 img{
@@ -45,9 +47,11 @@ span{
     font-weight: 700;
 }
 p{
-    font-weight:700;
+    font-weight:500;
     font-size: 32px;
     color: #854632;
+    font-family: "Young Serif", serif;
+
 }
 .time{
     display: grid;
@@ -58,6 +62,8 @@ p{
 }
 .time p {
     font-size: 20px;
+    font-family: "Outfit", sans-serif;
+
 }
 li{
     margin-left: 16px;
@@ -68,6 +74,8 @@ h1{
     color:var(--Dark-Charcoal   );
     font-weight: 700;
     font-size: 40px;
+    font-family: "Young Serif", serif;
+
 }
 .gap{
     display: grid;    
@@ -99,7 +107,7 @@ td{
 }
 .big{
     color: hsl(332, 51%, 32%);
-    font-weight: 700;
+    font-weight: 600;
     font-size: 18px;
 }
 .dog{
@@ -110,3 +118,15 @@ td{
         padding-top:0;
     }
 }
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-uniquifier {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
